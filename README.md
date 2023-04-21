@@ -1,6 +1,6 @@
 # webcal-combiner
 
-App to read a bunch of webcals and combine them into a single webcal that is served from a Flask endpoint. My use case was wanting a single calendar for my son's multiple concurrent basketball teams. This allows all the calendars to be combined into one that can be subscribed to by e.g. Google Calendar, iCal, etc., but still add a prefix to each event so it's obvious which team it's for. Now multiple people can all subscribe to a single calendar once, and the calendars that supply the events can be changed or updated at any time, and the combined calendar never needs to be touched.
+App to read a bunch of webcals and combine them into a single webcal that is served from a Flask endpoint. My use case was wanting a single calendar for my son's multiple concurrent basketball teams. This allows all the calendars to be combined into one that can be subscribed to by e.g. Google Calendar, iCal, etc., but still add a prefix to each event so it's obvious which team it's for. Now multiple people can all subscribe to a single calendar once, and the calendars that supply the events can be changed or updated at any time, and the combined calendar never needs to be touched - it will automatically update.
 
 ## Usage
 
