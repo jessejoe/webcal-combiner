@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+    webcal-combiner:
+        image: webcal-combiner
+        container_name: webcal-combiner
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "8080:5000"

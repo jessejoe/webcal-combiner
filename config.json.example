@@ -1,0 +1,15 @@
+{
+  "name": "Basketball",
+  "calendars": [
+    {
+      "name": "AAU",
+      "description": "2022-2023",
+      "url": "https://api.band.us/ical?token=..."
+    },
+    {
+      "name": "High School",
+      "description": "2022-2023",
+      "url": "https://api.team-manager.gc.com..."
+    }
+  ]
+}
