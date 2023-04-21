@@ -16,5 +16,5 @@ You should see the combined calendar output starting with `BEGIN:VCALENDAR` with
 
 ## NOTES
 
-1. Every time the URL is polled, the calendars are re-downloaded and combined and served out, there is no caching
+1. Every time the URL is polled, the calendars are re-downloaded and combined and served out, there is no caching currently, which is not needed because 👇
 1. Google Calendar does not poll frequently, seems to be every ~12 hours or so, which is annoying when there's a change and you want it to show up
