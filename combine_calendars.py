@@ -34,7 +34,6 @@ def generate_combined_calendar(name: str, calendars: list):
     new_cal.extra.append(ContentLine(name="REFRESH-INTERVAL;VALUE=DURATION", value='PT1H'))
 
     for calendar in calendars:
-        # for calendar in calendars:
         resp = requests.get(calendar.url, timeout=30)
         resp.raise_for_status()
 
